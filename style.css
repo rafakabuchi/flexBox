@@ -1,0 +1,119 @@
+div.container{
+    display: flex;
+    background-color: lightsalmon;
+
+    .item {
+        background-color: lightskyblue;
+        border: 1px solid black;
+        flex: auto;
+        text-align: center;
+        padding: 10px;
+    }
+}
+
+
+div.containerRow{
+    display: flex;
+    background-color: rgb(122, 255, 233);
+    flex-direction: row;
+
+    .itemRow{
+        background-color: rgb(213, 135, 250);
+        border: 1px solid black;
+        text-align: center;
+        padding: 10px;
+    }
+}
+
+div.containerReverse{
+    display: flex;
+    background-color: rgb(122, 255, 233);
+    flex-direction: row-reverse;
+
+    .itemReverse{
+        background-color: rgb(213, 135, 250);
+        border: 1px solid black;
+        text-align: center;
+        padding: 10px;
+    }
+}
+
+div.containerColumn{
+    display: flex;
+    background-color: rgb(122, 142, 255);
+    flex-direction: column;
+
+    .itemColumn{
+        background-color: rgb(250, 135, 198);
+        border: 1px solid black;
+        text-align: center;
+        margin: 0 30%;
+        padding: 10px;
+    }
+}
+
+div.containerColumnReverse{
+    display: flex;
+    background-color: rgb(122, 142, 255);
+    flex-direction: column-reverse;
+
+    .itemColumnReverse{
+        background-color: rgb(250, 135, 198);
+        border: 1px solid black;
+        text-align: center;
+        margin: 0 30%;
+        padding: 10px;
+    }
+}
+
+div.containerWrap{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: rgb(122, 142, 255);
+
+    .itemWrap{
+        background-color: rgb(250, 135, 198);
+        border: 1px solid black;
+        text-align: center;
+    }
+}
+
+div.containerNoWrap{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    background-color: rgb(122, 142, 255);
+
+    .itemNoWrap{
+        background-color: rgb(250, 135, 198);
+        border: 1px solid black;
+        text-align: center;
+    }
+}
+
+div.containerWrapReverse{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    background-color: rgb(122, 142, 255);
+
+    .itemWrapReverse{
+        background-color: rgb(250, 135, 198);
+        border: 1px solid black;
+        text-align: center;
+    }
+}
+
+div.containerFlexFlow{
+    display: flex;
+    flex-flow: row wrap;
+    background-color: rgb(122, 142, 255);
+
+    .itemWrapFlexFlow{
+        background-color: rgb(250, 135, 198);
+        border: 1px solid black;
+        text-align: center;
+        flex: auto;
+    }
+}
